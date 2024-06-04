@@ -122,6 +122,15 @@ nav li a{
     margin-top: 10px;
     margin-bottom: 10px;
    }
+   /* sponsor related style */
+   .sponsor{
+    text-align: center;
+   }
+   .sponsor-image-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+   }
 
 
 
@@ -148,6 +157,17 @@ nav li a{
         padding-left: 10px;
         padding-right: 10px;
        }
+       
+       .facts-card-container{
+        flex-direction: column;
+        gap: 10px;
+       }
+
+       .sponsor-image-container{
+       flex-direction: column;
+       align-items: center;
+       gap: 40px;
+       }
 }
 /* medium devices or tablets */
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -157,4 +177,9 @@ nav li a{
    header{
     padding: 40px;
    }
+   .sponsor-image-container{
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    }
 }
