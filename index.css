@@ -173,7 +173,16 @@ nav li a{
     margin-top: 50px;
    }
 
-
+/* footer related style */
+   footer p{
+    text-align: center;
+    padding-top: 80px;
+    background-color: antiquewhite;
+    width: 90%;
+    height: 100px;
+    margin:  auto;
+    border-radius: 10px;
+   }
 
 
 
