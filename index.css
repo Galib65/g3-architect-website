@@ -174,14 +174,19 @@ nav li a{
    }
 
 /* footer related style */
+
+   footer> div{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding-top: 30px;
+   }
    footer p{
     text-align: center;
-    padding-top: 80px;
-    background-color: antiquewhite;
+    /* padding-top: 80px; */
+  
     width: 90%;
-    height: 100px;
-    margin:  auto;
-    border-radius: 10px;
+    height: 60px;
+    /* margin:  45% auto; */
    }
 
 
